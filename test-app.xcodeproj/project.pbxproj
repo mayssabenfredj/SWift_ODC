@@ -22,6 +22,7 @@
 		9849B4452BB30CC200B2347A /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849B4442BB30CC200B2347A /* Failure.swift */; };
 		9849B4482BB30FEB00B2347A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849B4472BB30FEB00B2347A /* HomeViewModel.swift */; };
 		9849B44A2BB3100100B2347A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849B4492BB3100100B2347A /* HomeView.swift */; };
+		9849B44D2BB42A6800B2347A /* GetAllPlacesStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849B44C2BB42A6800B2347A /* GetAllPlacesStates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		9849B4442BB30CC200B2347A /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
 		9849B4472BB30FEB00B2347A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9849B4492BB3100100B2347A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9849B44C2BB42A6800B2347A /* GetAllPlacesStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllPlacesStates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,10 +152,19 @@
 		9849B4462BB30FC500B2347A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9849B44B2BB42A4000B2347A /* States */,
 				9849B4472BB30FEB00B2347A /* HomeViewModel.swift */,
 				9849B4492BB3100100B2347A /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		9849B44B2BB42A4000B2347A /* States */ = {
+			isa = PBXGroup;
+			children = (
+				9849B44C2BB42A6800B2347A /* GetAllPlacesStates.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9849B44D2BB42A6800B2347A /* GetAllPlacesStates.swift in Sources */,
 				9849B4432BB30C7E00B2347A /* PlaceItem.swift in Sources */,
 				9849B4452BB30CC200B2347A /* Failure.swift in Sources */,
 				9849B44A2BB3100100B2347A /* HomeView.swift in Sources */,

@@ -17,14 +17,14 @@ class PlaceDataSource {
         
         
         var urlRequest = URLRequest(url : url)
-        urlRequest.httpMethod = "Get"
+        urlRequest.httpMethod = "GET"
         let(data , response) = try await URLSession.shared.data(for:urlRequest)
         
         if let response = (response as? HTTPURLResponse){
             if response.statusCode == 200
             {
                 return try JSONDecoder().decode([PlaceItemResponse].self , from : data)
-                
+
             }else {
                 return nil
             }
